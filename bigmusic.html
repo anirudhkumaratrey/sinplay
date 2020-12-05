@@ -1,0 +1,387 @@
+
+	<style>
+	  .left::-webkit-scrollbar {
+    width: 1.2em;
+  }
+  
+   .left::-webkit-scrollbar-track {
+    
+    background-color: rgba(0,0,0);
+  }
+  .left::-webkit-scrollbar-thumb {
+    height:20%!important;
+  }
+  .left::-webkit-scrollbar-thumb {
+    background-image:linear-gradient(180deg,#000, #ec2d73,#76469a,#000);
+     
+   
+    border-radius:100px;
+    border:none;
+  }
+  
+  
+  /* Handle on hover */
+  .left::-webkit-scrollbar-thumb:hover {
+    background-image:linear-gradient(180deg,#000,#76469a, #ec2d73,#000);
+  }
+		.glow {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: -webkit-gradient(linear,left bottom, left top,from(#ffff),to(#ffff));
+	background: -webkit-linear-gradient(bottom,#ffff,#ffff);
+	background: -moz-linear-gradient(bottom,#ffff,#ffff);
+	background: -o-linear-gradient(bottom,#ffff,#ffff);
+	background: linear-gradient(0deg,#ffff,#ffff);
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+}
+.glow::before, .glow::after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: -webkit-linear-gradient(45deg,#ff00ee,#0000ff,#00ff00,#ff0000,#ff00ee,#0000ff,#00ff00,#ffff00,#ff0000);
+	background: -moz-linear-gradient(45deg,#ff00ee,#0000ff,#00ff00,#ff0000,#ff00ee,#0000ff,#00ff00,#ffff00,#ff0000);
+	background: -o-linear-gradient(45deg,#ff00ee,#0000ff,#00ff00,#ff0000,#ff00ee,#0000ff,#00ff00,#ffff00,#ff0000);
+	background: linear-gradient(45deg,#ff00ee,#0000ff,#00ff00,#ff0000,#ff00ee,#0000ff,#00ff00,#ffff00,#ff0000);
+	-webkit-background-size: 400% 400%;
+	   -moz-background-size: 400%;
+	     -o-background-size: 400%;
+	        background-size: 400%;
+	max-width: -webkit-calc(300px + 4px);
+	max-width: -moz-calc(300px + 4px);
+	max-width: calc(300px + 4px);
+	max-height: -webkit-calc(300px + 4px);
+	max-height: -moz-calc(300px + 4px);
+	max-height: calc(300px + 4px);
+	width: -webkit-calc(300px + 4px);
+	width: -moz-calc(300px + 4px);
+	width: calc(300px + 4px);
+	height: -webkit-calc(300px + 4px);
+	height: -moz-calc(300px + 4px);
+	height: calc(300px + 4px);
+	z-index: -1;
+	-webkit-animation: animate 20s linear infinite;
+	   -moz-animation: animate 20s linear infinite;
+	     -o-animation: animate 20s linear infinite;
+	        animation: animate 20s linear infinite;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+}
+.glow::after {
+	-webkit-filter: blur(20px);
+	        filter: blur(20px);
+}
+
+@-webkit-keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+@-moz-keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+@-o-keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+@keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+  .nextline>input[type=range] {
+    -webkit-appearance: none;
+    width: 40%;
+    margin: 0;
+  }
+    .nextline>input[type=range]:focus {
+    outline: none;
+  }
+    .nextline>input[type=range]::-webkit-slider-runnable-track {
+  
+    height: 4px;
+    background:white ;
+
+  } 
+    .nextline>input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    height: 15px;
+    cursor: ew-resize;
+    border-radius: 25px;
+    background: #434343;
+    /* box-shadow: -80px 0 0 80px #43e5f7; */
+  }
+    .nextline>input[type=range]::-webkit-slider-thumb {
+ 
+position: relative;
+bottom:6px;
+ /* color: aqua; */
+ background-image:linear-gradient(90deg, #ec2d73,#fff);
+
+  }
+    .nextline>input[type=range]:focus::-webkit-slider-runnable-track {
+    height: 2px;
+    background:white ;
+  } 
+    .nextline>input[type=range]::-moz-range-track {
+    width: 40%;
+    height: 4.4px;
+ 
+    background: ;
+
+  }   .nextline>input[type=range]::-moz-range-thumb {
+   
+    height: 10px;
+
+    background:;
+    
+  }   .nextline>input[type=range]::-ms-track {
+    width: 40%;
+    height: 4.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }   .nextline>input[type=range]::-ms-fill-lower {
+    background: ;
+
+  }
+    .nextline>input[type=range]::-ms-fill-upper {
+    background: ;
+  
+  }
+    .nextline>input[type=range]::-ms-thumb {
+
+    height: 10px;
+  
+    height: 4.4px;
+  }
+		.cute {    
+    
+	border-radius: 90px;
+	background-color: #E1E6EC;
+	text-align: left;
+   
+	border: none;
+	box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;}
+	.left{
+		text-align: center;
+			width: 40vw;
+			background-color: rgba(0,0,0,0.9);
+			color:#dfdfdf;
+			position: fixed;
+			right: 40vw;
+			top: 100px;
+			z-index: 9999;
+			padding: 8;
+			height: 85vh;
+			overflow-y: scroll;
+	}
+	.left>hr{
+		background-color: #A2B1C6;
+	}
+	.left>.rowi{
+		text-align: right;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		cursor: pointer;
+	}
+	.rowi:hover{
+		background-color: rgba(209, 76, 165, 0.9);
+		color: #fff;
+	}
+		.right{
+			height: 100vh;
+		
+			text-align: center;
+			width: 40vw;
+			background-image:linear-gradient(90deg, #ec2d73,#76469a);
+			display: flex;
+			position: fixed;
+			right: 0;
+			bottom: 0px;
+			flex-direction: column;
+			z-index: 9999;
+			padding: 50px;
+		}
+		.glow>img{
+			padding: 5px;
+			position: relative;
+			display: block;
+			width: 100%;
+			border-radius: 500px;
+			height:300px; 
+			width:300px;
+			
+		}
+		.right>h1{
+			color: #fff;
+		}
+		.right>h2{
+			color: #fff;
+		}
+		.right>.controller{
+			position: relative;
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+	
+					
+		}
+	progress {
+    width: 98%;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: black;
+    color: grey;
+    height: 8px;
+}
+		 progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #dfdfdf;
+    color: rgb(153, 153, 163);
+
+}
+		progress::-webkit-progress-value {
+  background-image:linear-gradient(180deg, #ec2d73,#fff);
+		}
+		.firstline{
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+			justify-content: space-evenly;
+
+			align-self:stretch;
+			padding: 30px;
+		}
+		#seek-obj-container,#seek-obj{
+			width: 100%;
+		}
+		.fan{
+			padding: 8px;
+			border:none;
+			background: none;
+		}
+		.list{
+			position: absolute;
+			top:5vh;
+			left:5vw;
+		}
+		.close{
+			position: absolute;
+			padding: 5px;
+			top:5vh;
+			right:5vw;
+		}
+	</style>
+	<section id="bigmusic" class="d-none">
+		<div class="left d-none" id="left">
+				
+			<script>
+var text="<div style='position:fixed; margin-left:10%;'><h1>Currently Playing <button onclick='closedis()'><i class='fa fa-close'></i></button></h1><hr></div>";
+echoice.forEach(element => {
+	
+
+	text+='<div onclick="playnow('+element.id+')" value="'+element.id+'" class="rowi" style="margin-top:5vh;"><img src='+element.thumbnail+' class="rounded-circle" alt="" width="50px" height="50px"><h3 class="mt-2">'+element.name+'</h3><h3 class="mt-2">'+element.artist+'</h3></div><hr>';
+	
+});
+				document.getElementById("left").innerHTML=text;
+			</script>
+			
+		</div>
+		<div class="right ">
+			<div class="otherline">
+				<button id="funny" class="list fan cute" onclick="opendis(this)"><i class="fa fa-list"></i></button>
+
+
+				<button id="fun" class="close fan cute" onclick="musicbar(this)"><i class="fa fa-close"></i></button>
+			</div>
+			<div class="mx-auto mb">
+
+				<div class="glow">
+					
+					<img class="image" id="bigimage" src="img/22.jpg" alt="thumbnail" height="300px" width="200px">
+					<div class="mb"></div>
+				</div>
+			</div>
+			<span id="seek-obj-container">
+				<div class="p-3"></div>
+				<progress id="bigseek-obj" value="0.5" max="1"></progress>
+			  </span>
+		<h1 id="bigsongname">Song Name</h1>
+		<h2 id="bigsinger">artist</h2>
+		<div class="controller">
+          
+    <div class="firstline">
+
+		
+		<button id="bigpre" class="fan cute"><i class="fa fa-arrow-left"></i></button>
+		<button id="bigpp" class="fan cute" title="play/pause" style="font-size: large;" ><i id="bigplay" class="fa fa-pause btn-show"></i>
+		</button>
+		<button id="bignext" class="fan cute" ><i class="fa fa-arrow-right"></i></button>
+		<button id="share" title="share"  class="fan cute" ><i class="fa fa-2x fa-share-alt" aria-hidden="true"></i></button>
+		
+	</div>
+
+<div class="nextline mt-5" >
+
+	<button id='bigbtnMute' class="fan cute" title='mute' style="position: relative; right: 100px;  bottom: 10px;" onclick='muteVolume();'><i  title='mute' class="fa fa-volume-up" aria-hidden="true"></i></button>
+
+
+	<input width="40% " style="position: relative; left: 150px; bottom:25px;" type="range" class="fa " id="bigvolume-bar" title="volume" min="0" max="10" step="1" value="10">
+	
+
+</div>
+
+</div>
+
+
+	</section>
+
+	<script>
+		function opendis(){
+			document.getElementById("left").classList.remove("d-none");
+		}
+	function closedis(){
+		document.getElementById("left").classList.add("d-none");
+	}
+
+	</script>

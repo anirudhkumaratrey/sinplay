@@ -1,0 +1,171 @@
+.button {
+  background-color: white;
+  border: none;
+  color: #0d587d;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 32px;
+  cursor: pointer;
+}
+
+.connet {
+    background-color: #0080FF;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 15px;
+}
+.connet:hover {
+  background-color: crimson;
+}
+.connet:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.panel-primary {
+    background-color: #e8edf3;
+    height: fit-content !important;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.button1{
+  background-color: #1b1b1b;
+  border: none;
+  color: White;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.button2{
+  background-color: #4b4b4b;
+  border: none;
+  color: White;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 32px;
+  cursor: pointer;
+}
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 20px;}
+.button:hover {
+  background-color:#0080FF;		
+}	
+.button2:hover {
+  background-color:#0080FF;	
+}
+
+<!-----------------USER IMAGE AND SETTING------------>
+.butt{
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left:-9px;
+        margin-right:0px;
+        width: 2px;
+        height: 2px;
+}
+.butt1{
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-left:8px;
+        margin-right:0px;
+        width: 2px;
+        height: 2px;
+}
+.butt2{
+                   padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                    height:50px;
+}
+.butt3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+.back{
+ background-color: #00ace6;   
+}
+.list{
+    list-style: none;
+}
+#user1{
+    font-size:80px; padding-top: 30px;  color: #00ace6;
+}
+
+.new{
+background: transparent; padding: 3px; border: 1px solid #4B4B4B; display: none;
+}
+<!-----------SOcial Media Links---------------------->
+
+.row-pad{
+     padding-top:10px;
+}
+.align-text{
+    style=text-align:left;
+}
+
+.width1{
+    width:100%;
+}
+
+<!-----------------USER IMAGE AND SETTING------------>
+.center{
+text-align: center;
+}
+#back{
+    background-color: transparent;
+    border: none;
+}
+#bar{
+    float:right;font-size: 30px; margin-right: 20px;
+}
+.nil{
+text-align: left;    padding: 0px;
+    margin: 0px;
+}
+.nil1{
+    padding: 0px;   margin: 0px;
+}
+.mar{
+    margin-left:100px;
+}
+#currentName{
+    color: #e8edf3;
+}
+#flo{
+float: right;
+}

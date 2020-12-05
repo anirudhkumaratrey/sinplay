@@ -1,0 +1,165 @@
+// list profile view
+
+const Yoursongs =  [
+    {image: "img/19.jpg", Name:"Aayush"},
+    {image: "img/13.jpg", Name:"Justin"},
+    {image: "img/12.jpg", Name:"Knight"},
+    {image: "img/11.jpg", Name:"Me4U"},
+    {image: "img/18.jpg", Name:"Hola"},
+    {image: "img/13.jpg", Name:"Aayush"}
+];
+ const Wishlist =  [
+    {image: "img/19.jpg", Name:"Aayush"},
+    {image: "img/13.jpg", Name:"Justin"},
+    {image: "img/12.jpg", Name:"Knight"},
+    {image: "img/11.jpg", Name:"Me4U"},
+    {image: "img/18.jpg", Name:"Hola"},
+    {image: "img/13.jpg", Name:"Aayush"},
+
+];
+  const  Clap = [
+    {image:'./img/1.jpg',
+    Name:'Aayush',
+    Message:'Hello there',
+    Time:'3 hr',
+    Amount:'20rs'} ,
+
+     {image:'./img/1.jpg',
+    Name:'Aayush',
+    Message:'Hello there',
+    Time:'3 hr',
+    Amount:'20rs'} ,
+
+     {image:'./img/1.jpg',
+    Name:'Aayush',
+    Message:'Hello there',
+    Time:'3 hr',
+    Amount:'20rs'} ,
+
+];
+
+
+
+const following = [
+{  today:   6 ,
+last7days: 12 , 
+totalfollowing: 18 ,
+image:   "./img/1.jpg",
+followingsadded: "+15"}
+];
+
+const followers = [
+{  today:   20,
+last7days: 10 , 
+totalfollowers: 30 ,
+image:   "./img/3.jpg",
+followersadded: "+15"}
+];
+
+const share = [
+{name:"google-plus",  link:"https://www.google.co.in/"},
+
+{name:"youtube" , link:"https://www.youtube.com/"}
+];
+
+
+// List artist view
+
+const recentUploads = [
+    {image: "img/6.jpg", name:" SONG NAME" , artistname:"ARTST NAME"},
+    {image: "img/1.jpg", name:" SONG NAME" , artistname:"Justin bieber"},
+    {image: "img/4.jpg", name:" SONG NAME", artistname:"LIGHTS OUT INDIA"},
+    {image: "img/6.jpg", name:" SONG NAME"},
+    {image: "img/1.jpg", name:" SONG Name"},
+    {image: "img/6.jpg", name:" SONG NAME" , artistname:"ARTST NAME"},
+  
+    
+];
+
+const allUploads = [
+    {image: "img/6.jpg", name:" SONG NAME" , artistname:"ARTST NAME"},
+    {image: "img/1.jpg", name:" SONG NAME" , artistname:"Justin bieber"},
+    {image: "img/4.jpg", name:" SONG NAME", artistname:"LIGHTS OUT INDIA"},
+    {image: "img/6.jpg", name:" SONG NAME"},
+    {image: "img/1.jpg", name:" SONG Name"},
+    {image: "img/6.jpg", name:" SONG NAME" , artistname:"ARTST NAME"},
+    
+    
+    ]; 
+
+const following = [
+{  today:   6 ,
+last7days: 12 , 
+total: 18 ,
+image:   "./img/1.jpg",
+added: 15}
+];
+
+const followers = [
+{  today:   20,
+last7days: 10 , 
+total: 30 ,
+image:   "./img/3.jpg",
+added: 258}
+];
+
+const share = [
+{name:"google-plus",  link:"https://www.google.co.in/"},
+
+{name:"youtube" , link:"https://www.youtube.com/"
+}
+];
+
+
+
+
+//Dashboard lists
+
+const recentlyplayed = [
+    {image: "img/12.jpg" , Name: "Fireflies" , artist: "OWL CITY" , featuredby: "VIVO"},
+    {image: "img/13.jpg" , Name: "Drag ME Down" , artist: "One Direction" , featuredby: "OneDirection"},
+    {image: "img/14.jpg" , Name: "2U" , artist: "Justin Bieber" , featuredby: "JB"},
+    {image: "img/15.jpg" , Name: "There For you" , artist: "Jatin & saksham" , featuredby: "LightsOutIndia"},
+    {image: "img/16.jpg" , Name: "Fireflies" , artist: "OWL CITY" , featuredby: "VIVO"},
+    {image: "img/17.jpg" , Name: "Fireflies" , artist: "OWL CITY" , featuredby: "VIVO"}
+];
+const topsinplayer = [
+    {image: "img/12.jpg" , artist: "Aayush"},
+    {image: "img/13.jpg", artist: "Lights Out India"},
+    {image: "img/14.jpg", artist: "JB"},
+    {image: "img/15.jpg", artist: "OWL CITY"},
+    {image: "img/16.jpg", artist: "Dark Knight"},
+    {image: "img/17.jpg", artist: "Aayush"}
+];
+const editorsPick = [
+    {image: "img/12.jpg" , Name: "Fireflies" , artist: "OWL CITY" , featuredby: "VIVO"},
+    {image: "img/13.jpg" , Name: "Drag ME Down" , artist: "One Direction" , featuredby: "OneDirection"},
+    {image: "img/14.jpg" , Name: "2U" , artist: "Justin Bieber" , featuredby: "JB"},
+    {image: "img/15.jpg" , Name: "There For you" , artist: "Jatin & saksham" , featuredby: "LightsOutIndia"},
+    {image: "img/16.jpg" , Name: "Fireflies" , artist: "OWL CITY" , featuredby: "VIVO"},
+    {image: "img/17.jpg" , Name: "Fireflies" , artist: "OWL CITY" , featuredby: "VIVO"}
+];
+
+const sinboard = [
+     {image: "img/12.jpg" , songName: "Fireflies" , artist: "OWL CITY"},
+    {image: "img/13.jpg" , songName: "Drag ME Down" , artist: "One Direction"},
+    {image: "img/14.jpg" , songName: "2U" , artist: "Justin Bieber" },
+    {image: "img/15.jpg" , songName: "There For you" , artist: "Jatin & saksham" },
+    {image: "img/16.jpg" , songName: "Fireflies" , artist: "OWL CITY" },
+    {image: "img/17.jpg" , songName: "Fireflies" , artist: "OWL CITY" },
+    {image: "img/13.jpg" , songName: "Drag ME Down" , artist: "One Direction"},
+    {image: "img/14.jpg" , songName: "2U" , artist: "Justin Bieber" },
+    {image: "img/15.jpg" , songName: "There For you" , artist: "Jatin & saksham" },
+    {image: "img/16.jpg" , songName: "Fireflies" , artist: "OWL CITY"},
+    {image: "img/17.jpg" , songName: "Fireflies" , artist: "OWL CITY"}
+];
+
+
+// login page
+
+
+const player=[
+  {artist:"aayush", name:"forever" , duration:"3:02" , image:"img/6.jpg" , currentTime:"0:00"},
+  {artist:"aayush", name:"forever" , duration:"" , image:"" , currentTime:""},
+  {artist:"aayush", name:"forever" , duration:"" , image:"" , currentTime:""}
+  ];

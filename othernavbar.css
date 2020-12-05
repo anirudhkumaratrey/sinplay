@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+
+.nav>.na>a:focus, .nav>.na>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.hero {
+  position: relative;
+  height: 32vh;
+  z-index: 10;
+  background: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-music-headset-red-simple-banner-image_174717.jpg") center top/cover no-repeat;
+
+}
+.navbar-brand{
+  transform: scale(1.5);
+}
+.overlay {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+}
+input[type="text"]{
+    background: rgba(0,0,0,0.8);
+}
+
+
+/* ===================================== */
+/* ===== THE INTERESTING STUFF NOW ===== */
+/* ===================================== */
+
+.navba {
+  border: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+/* --- navbar sizes --- */
+/* --- navbar colors --- */
+}
+.navbar-brand {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #4b4b4b;
+}
+.navbar--size--xl {
+  padding: 2rem 0;
+}
+.navbar--size--lg {
+  padding: 2rem 0;
+}
+.navbar--size--md {
+  padding: 1rem 0;
+}
+.navbar--size--sm {
+  padding: 0;
+}
+.navbar--color--white {
+  background: #fff;
+}
+.navbar--color--primary {
+  background: #37ca7e;
+}
+.navbar--color--secondary {
+    height: 100px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(90deg, #ec2d73,#76469a);
+}
+.navbar--color--ghost {
+  background: rgba(0,0,0,0.2);
+}
+.navba--color--ghost .navbar-brand,
+.navba--color--ghost .navbar-text,
+.navba--color--ghost a {
+  color: #fff;
+}
+.navba .nav > .na > a {
+    line-height: 50px;
+  }
+  .navba nav{
+      float: right;
+  }
+  .navbar-header h1 {
+      letter-spacing: 1px;
+      color: #fff !important;
+      font-family: 'Lobster Two', cursive;
+  }
+  
+  .navba .na a, .navba {
+    color: #fff !important;
+      font-size: 12px;
+      transition: all 0.6s 0s;
+     
+  }
+
+  
+  .navbar-toggle {
+      background-color: transparent !important;
+      border: 0;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: red !important;
+      background: none;
+  }
+  @media only screen and (max-width: 600px) {
+    
+  }
+  

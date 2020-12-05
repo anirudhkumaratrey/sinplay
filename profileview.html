@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Sinplay</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    
+
+
+<!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+<!-- bootstrap4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- css -->
+    <link rel="stylesheet" type="text/css" href="profileview.css">
+    <link rel="stylesheet" href="css/style.css" > 
+ 
+ <!-- libraries -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    
+	
+</head>
+<body>
+
+
+    <!-- navbar -->
+    <section>
+        <nav class="navbar  navbar-light bg-light">
+                <div class="col-sm-4">
+                    <div class="col-sm-12">
+                        <div class="row ">
+                            <a class="navbar-brand" href="#">
+                          <img src="img/logo.png" >
+                        </a>
+                        </div>
+                     </div>   
+                   </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-7">
+                  
+                    <!-- Search form -->
+                     <input id="search" class="form-control" type="text" placeholder="Search" aria-label="Search" >
+                 
+             </div>
+    
+            </div>
+            <div class="col-sm-2">
+            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-light p-4">
+                <ul class="navbar-nav nav-tabs">
+                    <li class="nav-item">
+              <a href="" class="  nav-link"><i class="fa fa-legal">  Legals</i> </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-item nav-link"><i class="fa fa-user" aria-hidden="true">Profile</i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class=" nav-link"><i class="fa fa-download" aria-hidden="true">Download App</i></a> 
+            </li>
+            <li class="nav-item">
+              <a href="#" class=" nav-link"><i class="fa fa-cart-arrow-down">Buy premium</i> </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class=" nav-link"><i class="fa fa-address-card">About us </i></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class=" nav-link"><i class="fa fa-hand-o-right">  Term & condition</i></a>
+            </li>
+            <li class="nav-item">
+              <a href="" class=" nav-link"><i class="fa fa-cloud"> Show Statistics</i>  </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class=" nav-link"><i class="fa fa-power-off">  Log out</i> </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class=" nav-link"><i class="fa fa-edit"> Settings</i> </a>
+            </li>
+            </ul>
+            </div>
+          </div>
+          </nav>
+        </section>
+			<!-- navbar ends here -->
+<!------ Include the above in your HEAD tag ---------->
+
+
+<div class="container">
+	<div class="row ">
+        <div class="mx-auto text-center mt-4">
+            <i class="fa fa-user " aria-hidden="true" class="padd" ></i>  
+            <br>
+            <label id="colour">Name</label>
+            
+                    </div>
+
+
+
+
+
+
+
+
+
+		
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title"></h3>
+                    <div class="pos1">
+                    <span class="">
+                        <!-- Tabs -->
+                        
+                        <ul class="nav nav-pills">
+                            <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+                            <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
+                            <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
+                            <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>
+                          </ul>
+                    </span>
+                    </div>
+                </div>                          
+                          <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                              <form action="fileupload.php" method="POST" enctype="multipart/form-data">
+                                  <h4>Music name</h4></span><span></span>
+                                  <input type="text" id="Song name" class="field-sty" name="name">
+                                      <h4>Add Genre</h4>
+                                      <input type="text" id="Genre"  class="field-sty" name="category">
+                                  <h4>Artist Name</h4>   
+                                  <input type="text" id="Artist"  class="field-sty" name="singer">
+                                      <h4>Song Language</h4>   
+                                  <input type="link" id="Language" class="field-sty" name="language">
+                                   <h4>Copyright</h4>
+                                      <button class="button button5">
+                                      <span class="zoom2">
+                                          <i class="fa fa-plus-circle cir" ></i>
+                                      </span>
+                                      </button>
+                              
+                              <h4>song</h4><input type="file" name="fileup" accept='audio/*'/>                      
+                              <br><br><br>
+                              <button class="button4" name="submit">submit</button>
+                              </form>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                              <h3>Menu 1</h3>
+                              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                              <div class="row">
+                                  <h1 class="pos1">Your Wishlist </h1>
+                                         </div>
+                             <div class="col-md-12 padd10 profile-access pos1">
+                                 <div class="col-md-2"></div>
+                                                                    
+                                <div class="col-md-8">
+                                <section class="song-player" id="ken1">
+                                    
+                                                       <div class="col-md-2 zoom2">
+                                                           <img src="img/19.jpg" class="br">
+                                                           <span class="fix"><i class="fa fa-caret-right"></i></span>
+                                                       </div>
+                                                       <div class="col-md-2 zoom2">
+                                                           <img src="img/13.jpg" class="br">
+                                                           <span class="fix"><i class="fa fa-caret-right"></i></span>
+                                                       </div>
+                                                       <div class="col-md-2 zoom2">
+                                                           <img src="img/12.jpg" class="br">
+                                                           <span class="fix"><i class="fa fa-caret-right"></i></span>
+                                                       </div>
+                                                       <div class="col-md-2 zoom2">
+                                                           <img src="img/11.jpg" class="br">
+                                                           <span class="fix"><i class="fa fa-caret-right"></i></span>
+                                                       </div>
+                                                       <div class="col-md-2 zoom2">
+                                                           <img src="img/18.jpg" class="br">
+                                                           <span class="fix"><i class="fa fa-caret-right"></i></span>
+                                                       </div>
+                                                       <div class="col-md-2 zoom2">
+                                                           <img src="img/13.jpg" class="br">
+                                                           <span class="fix"><i class="fa fa-caret-right"></i></span>
+                                                       </div>
+                              </section>
+                                 </div>
+                                  <div class="col-md-2"></div>
+                                 
+                  
+                             </div>
+                  
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <div class="row mar-top" >
+                                                  
+                                  <div class="col-md-6 textcenter">
+                                     
+                                        <div class="col-md-12 textcenter boxshadow"> <h1>Following</h1>
+                                        <section class="chatbox" id="ken3">
+                                      </div>
+                                  </div>
+                    <div class="col-md-6">  
+                  
+                        <div class="col-md-12 textcenter boxshadow" > <h1>Follower</h1>
+                          <section class="chatbox" id="ken4">
+                                            </section>
+                            </div>
+                          </div>
+                        </div>
+                         <div class="tab-pane" id="tab6">
+                              <h1 class="text-center">SHARE  </h1>
+                               <section class="share" id="ken5">
+                                <div class="row" id="pad-top">
+                              <div class="col-md-12 text-center" >
+   
+
+                                     <!--<div class="social google-plus">
+                                        <i class="fa fa-google-plus fa-5x"></i>
+                                    </div>
+                                    <div class="social facebook">
+                                        <i class="fa fa-facebook fa-5x"></i>       
+                                    </div>
+                                    <div class="social twitter">
+                                        <i class="fa fa-twitter fa-5x"></i>   
+                                    </div>
+                                    <div class="social pinterest">
+                                        <i class="fa fa-pinterest fa-5x"></i>  
+                                    </div> 
+                                    
+                                    <div class="social youtube">
+                                        <i class="fa fa-youtube fa-5x"></i>     
+                                    </div>-->
+                                    </div>
+                                </div>
+                                </section>
+                            </div>
+                        <div class="tab-pane" id="tab7">
+                          <div class="row" id="mar1">
+                                <section class="Message" id="ken2">
+                            <!--<div class="notif">
+                                <img class="notifImage" src="./img/1.jpg"/>
+                                <div class="notifContents">
+                                    <div class="notifAuthor">
+                                        Name
+                                    </div>
+                                    <div class="notifMessage">
+                                        sjbcjzsjbsjc zvcsv hvdhsvch hznvs
+                                    </div>
+                                    <div class="notifRemTime">
+                                        2 hrs
+                                    </div>
+                                    <div class="notifAmount">
+                                        $20.2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="notif">
+                                <img class="notifImage" src="./img/1.jpg"/>
+                                <div class="notifContents">
+                                    <div class="notifAuthor">
+                                        GrayHat
+                                    </div>
+                                    <div class="notifMessage">
+                                        sjbcjzsjbsjc zvcsv hvdhsvch hznvs
+                                    </div>
+                                    <div class="notifRemTime">
+                                        2 hrs
+                                    </div>
+                                    <div class="notifAmount">
+                                        $20.2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="notif">
+                                <img class="notifImage" src="./img/1.jpg"/>
+                                <div class="notifContents">
+                                    <div class="notifAuthor">
+                                        DeadAss
+                                    </div>
+                                    <div class="notifMessage">
+                                        sjbcjzsjbsjc zvcsv hvdhsvch hznvs
+                                    </div>
+                                    <div class="notifRemTime">
+                                        2 hrs
+                                    </div>
+                                    <div class="notifAmount">
+                                        $20.2
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div> 
+    </div>
+    <div class="col-md-1"></div>
+</div>
+</div>
+		
+	</div>
+         
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel1 = this.nextElementSibling;
+    if (panel1.style.display === "block") {
+      panel1.style.display = "none";
+    } else {
+      panel1.style.display = "block";
+    }
+  });
+}
+function notifClicked(event){
+    console.log('clicked',event.path[2]);
+    window.open('/chat.html');
+}
+window.onload =()=> {
+    var list = document.getElementsByClassName("notif");
+    for(var i=0;i<list.length;i++){
+        var notif = list[i];
+        notif.onclick = notifClicked;
+    }
+};
+</script>
+</div>
+  
+
+<script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        autoplay:false
+      });
+      
+      
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+
+
+ const Yoursongs =  [
+    {image: "img/19.jpg", Name:"Aayush"},
+    {image: "img/13.jpg", Name:"Justin"},
+    {image: "img/12.jpg", Name:"Knight"},
+    {image: "img/11.jpg", Name:"Me4U"},
+    {image: "img/18.jpg", Name:"Hola"},
+    {image: "img/13.jpg", Name:"Aayush"}
+];
+ const Wishlist =  [
+    {image: "img/19.jpg", Name:"Aayush"},
+    {image: "img/13.jpg", Name:"Justin"},
+    {image: "img/12.jpg", Name:"Knight"},
+    {image: "img/11.jpg", Name:"Me4U"},
+    {image: "img/18.jpg", Name:"Hola"},
+    {image: "img/13.jpg", Name:"Aayush"},
+
+];
+  const  Clap = [
+    {image:'./img/1.jpg',
+    Name:'Aayush',
+    Message:'Hello there',
+    Time:'3 hr',
+    Amount:'20rs'} ,
+
+     {image:'./img/1.jpg',
+    Name:'Aayush',
+    Message:'Hello there',
+    Time:'3 hr',
+    Amount:'20rs'} ,
+
+     {image:'./img/1.jpg',
+    Name:'Aayush',
+    Message:'Hello there',
+    Time:'3 hr',
+    Amount:'20rs'} ,
+
+];
+
+
+
+const following = [
+{  today:   6 ,
+last7days: 12 , 
+totalfollowing: 18 ,
+image:   "./img/1.jpg",
+followingsadded: "+15"}
+];
+
+const followers = [
+{  today:   20,
+last7days: 10 , 
+totalfollowers: 30 ,
+image:   "./img/3.jpg",
+followersadded: "+15"}
+];
+
+const share = [
+{name:"google-plus",  link:"https://www.google.co.in/"},
+
+{name:"youtube" , link:"https://www.youtube.com/"}
+];
+
+function yoursongsTemplate({image,Name}) {
+    return `<div class="col-md-2 zoom2"><img src="${image}" class="br">${Name}</div>`;
+}
+function wishlistTemplate({image,Name}) {
+   return `<div class="col-md-2 zoom2"><img src="${image}" class="br">${Name}</div>`;
+}
+function clapTemplate({image,Name,Message,Time,Amount}) {
+    return `<div class="notif">
+                                <img class="notifImage" src="${image}">
+                                <div class="notifContents">
+                                    <div class="notifAuthor">
+                                        ${Name}
+                                    </div>
+                                    <div class="notifMessage">
+                                        ${Message}
+                                    </div>
+                                    <div class="notifRemTime">
+                                        ${Time}
+                                    </div>
+                                    <div class="notifAmount">
+                                        ${Amount}
+                                    </div>
+                                </div>
+                            </div>`;
+}
+
+function followingTemplate({today,last7days,totalfollowing, image , followingsadded}){
+return      `                                      <div class="chatbox">
+                                           <div class="row">
+                                                   
+                                               <div class="col-md-4 col-xs-4">
+                                                   <span class="display-block fon28">${today}</span>
+                                                   <span>Today</span>
+                                               </div>
+                                               <div class="col-md-4 col-xs-4">
+                                                   <span class="display-block fon28">${last7days}</span>
+                                                    <span>Last 7 days</span>
+                                               </div>
+                                                <div class="col-md-4 col-xs-4">
+                                                   <span class="display-block fon28">${totalfollowing}</span>
+                                                   <span>Total Following</span>
+                                               </div>
+                                           </div>   
+                                           <div class="row">
+                                               <div class="speech-bubble">
+                                                   <img src="${image}" class=" chatboximg br">
+                                                   
+                                                   <span class="chatboximg maringmin special-box">${followingsadded}</span>
+                                               </div>
+                                           </div>
+                                       </div>`;
+}
+
+function followersTemplate({today,last7days,totalfollowers, image , followersadded}){
+return      `                                      <div class="chatbox">
+                                           <div class="row">
+                                                   
+                                               <div class="col-md-4 col-xs-4">
+                                                   <span class="display-block fon28">${today}</span>
+                                                   <span>Today</span>
+                                               </div>
+                                               <div class="col-md-4 col-xs-4">
+                                                   <span class="display-block fon28">${last7days}</span>
+                                                    <span>Last 7 days</span>
+                                               </div>
+                                                <div class="col-md-4 col-xs-4">
+                                                   <span class="display-block fon28">${totalfollowers}</span>
+                                                   <span>Total Followers</span>
+                                               </div>
+                                           </div>   
+                                           <div class="row">
+                                               <div class="speech-bubble">
+                                                   <img src="${image}" class=" chatboximg br">
+                                                   
+                                                   <span class="chatboximg maringmin special-box">${followersadded}</span>
+                                               </div>
+                                           </div>
+                                       </div>`;
+}
+
+function shareTemplate({name, link}){
+return  `                           
+                                    <div class="social ${name}">
+                                     <a href="${link}"><i class="fa fa-${name} fa-5x"></i></a>       
+                                    </div>
+                                   `;}
+
+
+const elementken5 = document.getElementById('ken5');
+elementken5.innerHTML = share.map(shareTemplate).join('');
+
+
+const elementken3 = document.getElementById('ken3');
+elementken3.innerHTML = following.map(followingTemplate).join('');
+
+const elementken4 = document.getElementById('ken4');
+elementken4.innerHTML = followers.map(followersTemplate).join('');
+
+const elementtan1 = document.getElementById('tan1');
+elementtan1.innerHTML = Yoursongs.map(yoursongsTemplate).join('');
+
+const elementken1 = document.getElementById('ken1');
+elementken1.innerHTML = Wishlist.map(wishlistTemplate).join('');
+
+const elementmar1 = document.getElementById('ken2');
+elementmar1.innerHTML = Clap.map(clapTemplate).join('');
+
+
+</script>
+</body>
+</html>

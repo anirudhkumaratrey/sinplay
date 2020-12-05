@@ -1,0 +1,94 @@
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <link rel="stylesheet" type="text/css" href="musicbox.css">
+   
+</head>
+    <body>
+    <div class=" musicbar justify-content-center bg-light w-100  d-none pb-2" id="music" style=" background-image:linear-gradient(90deg, #ec2d73,#76469a);position:fixed; bottom:0;font-size: 12px;">
+
+
+<!-- Card content -->
+<div id="player-card" class="ml-3 mt-2">
+
+  <!-- Title -->
+
+
+    <div class="row">
+      <div class="col-2 mt-4 ">
+      <div class="row">
+      <div class="col-6" >
+      <img id="image" height="70px" width="70px" class="rounded-circle ml-4" src="img/2.jpg" width="50px" alt="song image" style="float:right;"/>
+      </div>
+      <div class="col-6 text-light" style="float:left;">
+      <h4 id="songname" class="mb-2  font-weight-bold ml-4"><a>lifestream</a></h4>
+  <p id="singer" class="ml-4">Dream Machine</p>
+      </div>
+      </div>
+      </div>
+      <div class="col-10">
+    
+  <!-- Progress bar -->
+  <div class="list-unstyled list-inline player-controls mt-4 ">
+    <span id="seek-obj-container">
+      <progress id="seek-obj" value="0.5" max="1"></progress>
+    </span>
+</div>
+
+  <!-- Song Title -->
+
+  <!-- Times -->
+  <div class="col-md-12 mt-0 ">
+      <div class="row">
+  <div class="col-md-4 d-flex justify-content-between">
+    <p id="currentt"class="mt-4 card-text text-light" id="music-current">
+      0:00
+    </p>
+  </div>
+
+  <!-- Controls -->
+        <div class="col-md-10 mb-2">
+            <div class="d-flex justify-content-center">
+    
+    <li class="buttons list-inline-item mr-0 ml-4">
+      
+    <button id="pre"><i class="fa fa-arrow-left"></i></button>
+<button title="play/pause" style="font-size: large;" ><i id="play" class="fa fa-pause btn-show"></i>
+</button>
+<button id="next" ><i class="fa fa-arrow-right"></i></button>
+<button id="fun" onclick="bigmusic(this)"><i class="fa fa-arrow-up"></i></button>
+</li>
+<div class="w-25">
+<div class="row">
+  <div class="col-3"><button id='btnMute' class='mute' title='mute' onclick='muteVolume();'><i  title='mute' style=" font-size:25px;" class="fa fa-volume-up" aria-hidden="true"></i></button></div>
+  <div class="col-9 mt-3 text-light"><input type="range" id="volume-bar" title="volume" min="0" max="10" step="1" value="10" style="positon:absolute; bottom:10px;"></div>
+</div>
+
+  
+  
+</div>
+</div>
+  
+</div>
+
+  <div class="col-md-1 d-flex justify-content-between">
+  <p class="card-text ml-auto" id="music-duration">
+     
+    </p>
+  </div>
+</div>
+
+</div>
+<!-- Card -->
+
+</div>
+
+</div>
+</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?php
+           
+          if(isset($_POST['search'])){
+            ?>
+      
+<div class="row">
+
+      <?php
+  
+        $sql="select * from songs  ";
+
+        $rows=mysqli_query($db_connection,$sql);
+        while($s_id = mysqli_fetch_array($rows))
+        {
+        ?>
+
+  <div class="col-md-3 ml-5 my-4">
+    <img src="<?php echo $s_id['image']; ?>" class="rounded-circle" width="100px">
+  </div>
+  <div class="col-md-6 ml-3 mt-4">
+    <h2><?php echo $s_id['name']; ?></h2>
+    <p><?php echo $s_id['singer']; ?> </p>
+    
+  </div>
+  <div class="col-md-1">
+  <button class="btn btn-lg mt-4 btn-outline-dark"style="" onclick="play(this)" name="<?php echo $s_id['name'];?>" value="<?php echo $s_id['audio']?>" >
+  <i class="fa fa-play" aria-hidden="true">
+    Play
+
+  </i>
+</button>
+
+    
+    </div>
+    <?php
+      }
+
+   ?>
+  </div>
+  </div>
+              
+<?php
+      }  else{  

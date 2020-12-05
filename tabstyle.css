@@ -1,0 +1,39 @@
+#pagecontent
+{
+    width: fit-content;
+
+}
+
+
+#main_content
+{
+ margin-top:50px;
+ width:500px;
+ margin-left:250px;
+}
+#main_content li
+{
+ display:inline;
+ list-style-type:none;
+ background-color:#11c2b9;
+ padding:10px;
+ border-radius:5px 5px 0px 0px;
+ color:#292A0A;
+ font-weight:bold;
+ cursor:pointer;
+}
+#main_content li.notselected
+{
+ background-color:#11c2b9;
+ color:#292A0A;	
+}
+#main_content li.selected
+{
+ background-color:#529de4;
+ color:#292A0A;	
+}
+#main_content .hidden_desc
+{
+ display:none;
+ visibility:hidden;
+}
